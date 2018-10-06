@@ -1,0 +1,9 @@
+#lobby-header {
+  text-align: center;
+}
+
+#joinButton {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}

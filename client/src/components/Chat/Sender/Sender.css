@@ -1,0 +1,27 @@
+#message-form {
+  display: grid;
+  grid-template-columns: auto 5em;
+  grid-template-rows: 4.5em;
+}
+
+#message-box {
+  font-size: 18px;
+  margin-left: 8px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#message-send-button {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+#message-send-button:focus {
+  outline-style:none;
+  box-shadow:none;
+  border-color:transparent;
+}
+
+#message-send-button:hover {
+  background-color: #bbffaf;
+}

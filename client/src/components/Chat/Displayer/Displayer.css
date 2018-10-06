@@ -1,0 +1,10 @@
+.Displayer {
+  background-color: #232323;
+}
+
+.chat-displayer {
+  background-color: white;
+  margin: 8px 0px 0px 8px;
+  height: 44.5em;
+  overflow-y: auto;
+}
